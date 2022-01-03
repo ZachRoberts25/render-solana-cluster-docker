@@ -1,3 +1,4 @@
 FROM solanalabs/solana:stable
 ENTRYPOINT []
-CMD ["solana-test-validator"]
+EXPOSE 8899
+CMD ["/usr/bin/solana-run.sh"]

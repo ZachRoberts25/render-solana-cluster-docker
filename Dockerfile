@@ -1,1 +1,3 @@
-FROM solanalabs/solana:v1.7.16
+FROM solanalabs/solana:stable
+ENTRYPOINT []
+CMD ["solana-test-validator"]
